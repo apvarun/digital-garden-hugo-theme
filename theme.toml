@@ -1,0 +1,13 @@
+name = "Digital Garden"
+license = "MIT"
+licenselink = "https://github.com/apvarun/digital-garden-hugo-theme/blob/master/LICENSE"
+description = ""
+homepage = "http://example.com/"
+tags = []
+features = []
+min_version = "0.82.1"
+
+[author]
+  name = "Varun A P"
+  homepage = "https://apvarun.com"
+
