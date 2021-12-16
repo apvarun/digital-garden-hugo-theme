@@ -1,0 +1,21 @@
+{
+  "name": "digital-garden-theme",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev:css": "NODE_ENV=development ./node_modules/tailwindcss/lib/cli.js -i ./themes/digitalgarden/assets/css/tailwind.css -o ./static/css/main.css -w",
+    "build:css": "NODE_ENV=production ./node_modules/tailwindcss/lib/cli.js -i ./themes/digitalgarden/assets/css/tailwind.css -o ./static/css/main.css --minify",
+    "dev:hugo": "hugo serve",
+    "dev": "concurrently  \"npm run dev:css\" \"npm run dev:hugo\"",
+    "build": "npm run build:css && hugo -gc"
+  },
+  "keywords": [],
+  "author": "Varun A P",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.0.6"
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0"
+  }
+}
