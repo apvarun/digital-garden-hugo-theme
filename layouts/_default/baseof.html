@@ -2,9 +2,9 @@
 <html lang="{{ .Lang }}" itemscope itemtype="http://schema.org/WebPage">
 {{- partial "head.html" . -}}
 
-<body>
-  {{- partial "header.html" . -}}
-  <div id="content">
+<body class="flex relative h-full min-h-screen">
+  {{- partial "sidebar.html" . -}}
+  <div class="flex-1">
     {{- block "main" . }}{{- end }}
   </div>
   {{- partial "footer.html" . -}}
