@@ -33,15 +33,17 @@
     {{ end -}}
   </section>
 
-  <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-screen overflow-y-auto dark:prose-invert">
+  <div class="overflow-y-auto h-screen w-full">
+    <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert">
 
-    <h1 class="!mb-2">{{ .Title }}</h1>
-    {{ if .Date }}
-    <p class="text-sm text-slate-500 !mb-8">{{ .Date.Format "January 2, 2006" }}</p>
-    {{ end }}
+      <h1 class="!mb-2">{{ .Title }}</h1>
+      {{ if .Date }}
+      <p class="text-sm text-slate-500 !mb-8">{{ .Date.Format "January 2, 2006" }}</p>
+      {{ end }}
 
-    {{ .Content }}
-  </article>
+      {{ .Content }}
+    </article>
+  </div>
 
 </div>
 
