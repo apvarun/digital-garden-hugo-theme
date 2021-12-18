@@ -7,11 +7,11 @@
     <span class="px-2">Sidebar</span>
   </p>
 
-  {{ $permalink := .Permalink }}
+  {{ $permalink := cond (eq (len .RelPermalink) 1) .RelPermalink (strings.TrimRight "/" .RelPermalink) }}
   <ul class="list-none flex flex-col gap-1">
     {{ range .Site.Menus.main }}
     <li>
-      <a class="px-2 py-1.5 rounded-md text-sm block {{ if eq (.URL|absURL) $permalink }} bg-slate-800 text-white {{ else }} hover:bg-slate-300 {{ end }}"
+      <a class="px-2 py-1.5 rounded-md text-sm block {{ if eq .URL $permalink }} bg-slate-800 text-white {{ else }} hover:bg-slate-300 {{ end }}"
         href="{{ .URL }}">
         <span>{{ .Name }}</span>
       </a>
