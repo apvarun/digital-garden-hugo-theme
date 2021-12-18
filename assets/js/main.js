@@ -31,5 +31,25 @@ window.onbeforeunload = function () {
 window.onload = function () {
   const scrollPos = localStorage.getItem(scrollElementStateKey)
   localStorage.removeItem(scrollElementStateKey);
-  scrollElement.scrollTop = scrollPos
+  if (scrollElement) {
+    scrollElement.scrollTop = scrollPos
+  }
 }
+
+// Dark mode
+const darkModeToggle = document.querySelector('.dark-mode-toggle');
+const darkModeStateKey = "DarkMode";
+const isDark = !!localStorage.getItem(darkModeStateKey)
+if (isDark) {
+  document.documentElement.classList.add('dark');
+}
+darkModeToggle.addEventListener('click', () => {
+  if (document.documentElement.classList.contains('dark')) {
+    document.documentElement.classList.remove('dark');
+    localStorage.setItem(darkModeStateKey, false)
+  } else {
+    document.documentElement.classList.add('dark');
+    localStorage.setItem(darkModeStateKey, true)
+
+  }
+})
