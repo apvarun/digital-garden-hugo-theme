@@ -21,7 +21,7 @@
 
   <div class="flex-1"></div>
 
-  <ul class="list-none flex gap-1 pt-2 border-t border-slate-200">
+  <ul class="list-none flex flex-wrap justify-center gap-1 pt-2 border-t border-slate-200">
     {{ range .Site.Menus.social }}
     <li>
       <a class="px-2 py-1.5 rounded-md text-sm block {{ if eq (.URL|absURL) $permalink }} bg-slate-800 text-white {{ else }} hover:bg-slate-200 {{ end }}"
@@ -30,6 +30,18 @@
         <span>{{- partial "icon/twitterIcon.html" . -}}</span>
         {{ else if eq .Name "GitHub" }}
         <span>{{- partial "icon/githubIcon.html" . -}}</span>
+        {{ else if eq .Name "LinkedIn" }}
+        <span>{{- partial "icon/linkedinIcon.html" . -}}</span>
+        {{ else if eq .Name "Instagram" }}
+        <span>{{- partial "icon/instagramIcon.html" . -}}</span>
+        {{ else if eq .Name "Dribbble" }}
+        <span>{{- partial "icon/dribbbleIcon.html" . -}}</span>
+        {{ else if eq .Name "Codepen" }}
+        <span>{{- partial "icon/codepenIcon.html" . -}}</span>
+        {{ else if eq .Name "Email" }}
+        <span>{{- partial "icon/emailIcon.html" . -}}</span>
+        {{ else if eq .Name "RSS" }}
+        <span>{{- partial "icon/rssfeedIcon.html" . -}}</span>
         {{ end }}
       </a>
     </li>

@@ -1,7 +1,10 @@
 {{ define "main" }}
 
-<section class="w-full md:min-w-[400px] md:w-1/4 h-full bg-slate-50 border-r border-slate-200 flex flex-col py-3">
-  <h2 class="font-bold mb-5 px-3">{{ .Title }}</h2>
+<section
+  class="w-full h-screen md:min-w-[400px] md:w-1/4 bg-slate-50 border-r border-slate-200 flex flex-col py-3 overflow-y-auto scroll-area">
+  <a href="{{ .Permalink }}">
+    <h2 class="font-bold mb-5 px-3">{{ .Title }}</h2>
+  </a>
   <div class="space-y-2.5">
     {{ range .Data.Pages -}}
     <a class="block px-3 py-4 hover:bg-slate-200" href="{{ .RelPermalink }}">
