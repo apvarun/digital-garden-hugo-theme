@@ -1,5 +1,5 @@
 <aside
-  class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar">
+  class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-3/4 md:w-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar">
   <p class="font-bold mb-5 flex items-center gap-2">
     <button
       class="md:hidden menu-trigger-close p-1 rounded text-slate-800 dark:text-slate-50 hover:bg-slate-200 dark:hover:bg-slate-700">
@@ -18,7 +18,7 @@
   <ul class="list-none flex flex-col gap-1">
     {{ range .Site.Menus.main }}
     <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between {{ if eq .URL $permalink }} bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 {{ else }} hover:bg-slate-200 dark:hover:bg-slate-700 {{ end }}"
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between {{ if eq .URL $permalink }} bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 dark:selection:bg-slate-400 {{ else }} hover:bg-slate-200 dark:hover:bg-slate-700 {{ end }}"
         href="{{ .URL }}" {{ if strings.HasPrefix .URL "http" }} target="_blank" {{ end }}>
         <span>{{ .Name }}</span>
         {{ if strings.HasPrefix .URL "http" }}
@@ -32,6 +32,10 @@
   </ul>
 
   <div class="flex-1"></div>
+
+  {{ if .Site.Params.newsletter }}
+  {{- partial "newsletter-widget.html" . -}} 
+  {{ end }}
 
   <ul class="list-none flex flex-wrap justify-center gap-1 pt-2 border-t border-slate-200 dark:border-slate-600">
     {{ range .Site.Menus.social }}
