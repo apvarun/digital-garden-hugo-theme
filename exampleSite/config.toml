@@ -3,6 +3,12 @@ languageCode = "en-us"
 title = "Personal Digital Garden"
 theme = "digitalgarden"
 
+googleAnalytics = "UA-PROPERTY_ID"
+
+[Params]
+  description = "My Digital Garden on the Internet"
+  images = ['']
+
 [menu]
 [[menu.main]]
   name = 'Home'
@@ -57,3 +63,12 @@ theme = "digitalgarden"
   name = 'RSS'
   url = '/blog/index.xml'
   weight = 9
+
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true

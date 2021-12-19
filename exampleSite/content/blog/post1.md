@@ -1,7 +1,8 @@
 ---
 title: Cupcake ipsum dolor sit amet.
 date: 2021-12-18
-featured_image: https://i.picsum.photos/id/1002/400/300.jpg?hmac=BUnAKCKML-nq5PppT04EAr_Wyz8U3kwxrZVsJwFFhpI
+images:
+- https://i.picsum.photos/id/1002/400/300.jpg?hmac=BUnAKCKML-nq5PppT04EAr_Wyz8U3kwxrZVsJwFFhpI
 ---
 
 Cupcake ipsum dolor sit amet. Brownie gingerbread cheesecake oat cake gummi bears topping. Macaroon jelly-o candy canes bonbon I love. Cake jelly beans cake I love donut shortbread. Cookie I love biscuit gingerbread jujubes I love toffee gummi bears. Tart I love shortbread tart halvah carrot cake muffin. I love I love apple pie apple pie gummi bears. Icing jujubes pudding powder macaroon.

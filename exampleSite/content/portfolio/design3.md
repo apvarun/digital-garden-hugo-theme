@@ -1,8 +1,9 @@
 ---
 title: Apple cream vanilla apple marzipan muffin
 date: 2021-12-16
-featured_image: https://i.picsum.photos/id/12/400/300.jpg?hmac=9zg-xHM_r3ojCFQr7TSxpdObZ1pu3V2Yl2gafwcKcDs
-excerpt: Apple orange tiramisu jelly ipsum sugar. Candy cake orange ipsum orange muffin.
+images:
+- https://i.picsum.photos/id/12/400/300.jpg?hmac=9zg-xHM_r3ojCFQr7TSxpdObZ1pu3V2Yl2gafwcKcDs
+description: Apple orange tiramisu jelly ipsum sugar. Candy cake orange ipsum orange muffin.
 ---
 
 Tiramisu sprinkles marzipan lollipop marzipan dolor. Jelly candy marzipan vanilla candy ipsum. Sugar croissant lollipop vanilla cream marzipan. Sprinkles croissant cream dolor jelly marzipan. 

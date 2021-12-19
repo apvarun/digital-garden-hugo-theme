@@ -10,10 +10,12 @@
     <div class="space-y-2.5">
       {{ range .Data.Pages -}}
       <a class="block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="{{ .RelPermalink }}">
-        {{ $img := .Params.featured_image }}
+
         {{ $title := .Params.title }}
-        {{ with $img }}
+        {{ with .Params.images }}
+        {{- range first 1 . }}
         <img class="rounded max-w-full mb-4" src="{{ . }}" alt="{{ $title }}" />
+        {{ end -}}
         {{ end }}
         <h3 class="text-lg font-semibold mb-0.5">{{ $title }}</h3>
         <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">

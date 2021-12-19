@@ -17,10 +17,11 @@
       {{ $isCurrentPage := eq .RelPermalink $permalink }}
       <a class="block px-3 py-4 {{ if $isCurrentPage }} bg-slate-900 dark:bg-slate-700 text-slate-50 {{ else }} hover:bg-slate-200 dark:hover:bg-slate-700 {{ end }}"
         href="{{ .RelPermalink }}">
-        {{ $img := .Params.featured_image }}
         {{ $title := .Params.title }}
-        {{ with $img }}
+        {{ with .Params.images }}
+        {{- range first 1 . }}
         <img class="rounded max-w-full mb-4" src="{{ . }}" alt="{{ $title }}" />
+        {{ end -}}
         {{ end }}
         <h3 class="text-lg font-semibold mb-0.5">{{ $title }}</h3>
         <div
@@ -34,11 +35,18 @@
   </section>
 
   <div class="overflow-y-auto h-screen w-full">
-    <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert">
+    <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert prose-img:mx-auto">
 
-      <h1 class="!mb-2">{{ .Title }}</h1>
+      {{ $title := .Params.title }}
+      <h1 class="!mb-2">{{ $title }}</h1>
       {{ if .Date }}
       <p class="text-sm text-slate-500 !mb-8">{{ .Date.Format "January 2, 2006" }}</p>
+      {{ end }}
+
+      {{ with .Params.images }}
+      {{- range first 1 . }}
+      <img class="rounded max-w-full mx-auto mb-4" src="{{ . }}" alt="{{ $title }}" />
+      {{ end -}}
       {{ end }}
 
       {{ .Content }}
