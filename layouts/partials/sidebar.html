@@ -18,9 +18,14 @@
   <ul class="list-none flex flex-col gap-1">
     {{ range .Site.Menus.main }}
     <li>
-      <a class="px-2 py-1.5 rounded-md text-sm block {{ if eq .URL $permalink }} bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 {{ else }} hover:bg-slate-300 dark:hover:bg-slate-700 {{ end }}"
-        href="{{ .URL }}">
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between {{ if eq .URL $permalink }} bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 {{ else }} hover:bg-slate-200 dark:hover:bg-slate-700 {{ end }}"
+        href="{{ .URL }}" {{ if strings.HasPrefix .URL "http" }} target="_blank" {{ end }}>
         <span>{{ .Name }}</span>
+        {{ if strings.HasPrefix .URL "http" }}
+        <span>
+          {{- partial "icon/externalIcon.html" . -}}
+        </span>
+        {{ end }}
       </a>
     </li>
     {{ end }}
