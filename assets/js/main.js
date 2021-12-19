@@ -39,7 +39,7 @@ window.onload = function () {
 // Dark mode
 const darkModeToggle = document.querySelector('.dark-mode-toggle');
 const darkModeStateKey = "DarkMode";
-const isDark = JSON.parse(localStorage.getItem(darkModeStateKey) || '')
+const isDark = JSON.parse(localStorage.getItem(darkModeStateKey) || 'false')
 if (isDark) {
   document.documentElement.classList.add('dark');
 }
