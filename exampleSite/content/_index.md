@@ -2,9 +2,19 @@
 title: Homepage
 ---
 
+# Hello 👋
 
-Cupcake ipsum dolor sit amet sweet roll bonbon. Powder oat cake brownie dessert danish. I love cookie sesame snaps brownie fruitcake danish lollipop toffee. Halvah chocolate cake jelly beans lemon drops bear claw candy canes gummies. Danish lemon drops croissant I love shortbread bonbon. Tiramisu brownie chocolate cake gummi bears cupcake jujubes. Marshmallow cookie jujubes marzipan donut pie donut. Gummies apple pie pie cupcake gingerbread marzipan.
+**Welcome to my digital garden!**
 
-Topping tootsie roll soufflé I love lemon drops sugar plum cupcake. Macaroon chupa chups topping I love chocolate cake cake. Cookie chocolate croissant pastry marzipan candy canes sesame snaps pudding. Marzipan lollipop macaroon marzipan I love lemon drops I love sweet.
+A digital garden is like a personal wiki and a knowledge database of thoughts and ideas. Similar to a traditional garde, a digital one will also container various kinds of content (plants), of which may even be unerlated to each other. Ideas are not refined, thoughts are not tailored. Here is an excellent write-up about the [history of digital gardens](https://maggieappleton.com/garden-history)
 
-Chocolate cake sweet gummi bears lollipop. Lollipop pie dragée icing powder cotton candy cake chocolate bar I love. Jelly I love cotton candy cake icing lollipop. Jelly topping I love sweet roll macaroon. Bonbon biscuit soufflé fruitcake I love sweet tiramisu I love jelly. I love biscuit macaroon cheesecake jelly carrot cake tart I love. Soufflé macaroon pudding cupcake toffee halvah I love.
+
+Twitetr, for some, is also equivalent to a digital garden. It lets you share thoughts and ideas with everyone. But how often do you go back to those tweets? Not often. That's why you need a space for your ideas on the internet **that you own**. Check out `Digital gardens let you cultivate your own little bit of the internet` [post](https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/) by MIT technology review 
+
+<hr />
+
+Building your own digital garden is not a fad. Its a necessity. Tools like Roam Research, Obsidian and Notion provided means to interlink content, even over a graphical way. Still not sold? Check out [The Digital Garden](https://dev.to/jbranchaud/the-digital-garden-l10) by Josh Branchaud.
+
+→ [Go to all notes](/blog)
+
+Start collecting your ideas, curate thought provoking & interesting content and learn.

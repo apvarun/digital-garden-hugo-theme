@@ -1,7 +1,7 @@
 ---
 title: Cupcake ipsum dolor sit amet.
 date: 2021-12-18
-images:
+images: 
 - https://i.picsum.photos/id/1002/400/300.jpg?hmac=BUnAKCKML-nq5PppT04EAr_Wyz8U3kwxrZVsJwFFhpI
 ---
 

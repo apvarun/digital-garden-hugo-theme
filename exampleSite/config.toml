@@ -9,6 +9,11 @@ googleAnalytics = "UA-PROPERTY_ID"
   description = "My Digital Garden on the Internet"
   images = ['']
 
+[Params.newsletter]
+  title = ""
+  description = "A curated weekly digest once a week to your mailbox"
+  path = "https://www.getrevue.co/profile/username/add_subscriber"
+
 [menu]
 [[menu.main]]
   name = 'Home'
@@ -26,6 +31,10 @@ googleAnalytics = "UA-PROPERTY_ID"
   name = 'Stack'
   url = '/stack'
   weight = 4
+[[menu.main]]
+  name = 'Polywork'
+  url = 'https://polywork.com'
+  weight = 5
 
 [[menu.social]]
   name = 'Twitter'
