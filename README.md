@@ -3,8 +3,11 @@
 ![Latest Release](https://img.shields.io/github/tag/apvarun/digital-garden-hugo-theme.svg)
 ![Digital Garden hugo theme](https://img.shields.io/github/license/apvarun/digital-garden-hugo-theme)
 ![Hugo generator](https://img.shields.io/badge/generator-hugo-brightgreen)
+<a href="https://twitter.com/intent/tweet?text=Digital%20Garden%20theme%20for%20Hugo%0Ahttps%3A//github.com/apvarun/digital-garden-hugo-theme"><img alt="Twitter URL" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fapvarun%2Fdigital-garden-hugo-theme"></a>
 
 Build your own personal Digital Garden effortlessly with this Hugo theme
+
+[Live Demo](https://digital-garden-hugo-theme.vercel.app/) &nbsp; | &nbsp; [Documentation](https://github.com/apvarun/digital-garden-hugo-theme/wiki) &nbsp; | &nbsp; [Buy me a coffee](https://www.buymeacoffee.com/apvarun)
 
 ![Digital Garden Icon](https://github.com/apvarun/digital-garden-hugo-theme/raw/main/images/digital-garden-logo.png)
 
@@ -14,9 +17,9 @@ Build your own personal Digital Garden effortlessly with this Hugo theme
 - Responsive Website, Optimized for mobile reading
 - Custom portfolio showcase layout
 - Social media links
-- Code highlighting
+- Code highlighting (highlight.js)
 - Light and Dark mode
-- LaTeX math expression support
+- KaTeX math expression support
 - Fast performance with perfect score on Lighthouse ([Report](https://www.webpagetest.org/result/211220_AiDcT9_7641ee4549be75f403ddc104bfd26ced/))
 - SEO optimized with support for Twitter Cards and Open Graph
 - Built-in 404 page
@@ -27,7 +30,7 @@ Build your own personal Digital Garden effortlessly with this Hugo theme
 
 ![Preview](https://github.com/apvarun/digital-garden-hugo-theme/raw/main/images/screenshot.png)
 
-➡️ [LIVE DEMO](https://digital-garden-hugo-theme.vercel.app/ )
+➡️ &nbsp; [Open Live Demo](https://digital-garden-hugo-theme.vercel.app/)
 
 ## Get the theme
 
