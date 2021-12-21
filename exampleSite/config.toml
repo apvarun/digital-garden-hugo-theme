@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "Personal Digital Garden"
 theme = "digitalgarden"
@@ -7,7 +7,7 @@ googleAnalytics = "UA-PROPERTY_ID"
 
 [Params]
   description = "My Digital Garden on the Internet"
-  images = ['']
+  images = ['/digital-garden-logo.png']
 
 [Params.newsletter]
   title = ""
@@ -20,8 +20,8 @@ googleAnalytics = "UA-PROPERTY_ID"
   url = '/'
   weight = 1
 [[menu.main]]
-  name = 'Blog posts'
-  url = '/blog'
+  name = 'Articles'
+  url = '/articles'
   weight = 2
 [[menu.main]]
   name = 'Portfolio'
@@ -70,7 +70,7 @@ googleAnalytics = "UA-PROPERTY_ID"
   weight = 8
 [[menu.social]]
   name = 'RSS'
-  url = '/blog/index.xml'
+  url = '/articles/index.xml'
   weight = 9
 
 
