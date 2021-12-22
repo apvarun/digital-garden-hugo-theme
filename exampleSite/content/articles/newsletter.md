@@ -13,7 +13,7 @@ Login to your Revue account and go to to `Account Settings`, then the `Integrati
 
 ![Revue signup forms](https://downloads.intercomcdn.com/i/o/304891471/587879182e5d9d19aff97d2f/Screenshot+2021-02-26+at+9.10.32+AM.png)
 
-In the enxt page, you can find the add_subscriber URL.
+In the next page, you can find the add_subscriber URL.
 
 ![Revue URL](https://github.com/apvarun/digital-garden-hugo-theme/blob/main/images/revue-signup-form-url.png?raw=true)
 

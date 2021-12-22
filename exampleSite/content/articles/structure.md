@@ -23,6 +23,6 @@ Theme's content structure
 
 Note that articles, portfolio and also stack pages require you to create `_index.md` inside of it. Refer the [exampleSite](https://github.com/apvarun/digital-garden-hugo-theme/tree/main/exampleSite) in theme.
 
-All of thes sections are optional and you can decide not to utilize those layouts.
+All of these sections are optional and you can decide not to utilize those layouts.
 
 → [Configure Primary Menu](/articles/primary-menu)

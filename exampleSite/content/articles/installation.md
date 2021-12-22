@@ -21,4 +21,4 @@ Clone the repository (one-off, updating the theme may be harder later):
 git clone https://github.com/apvarun/blist-hugo-theme.git themes/blist
 ```
 
-→ [Understanding the theme's structure](/articles/structure)
+→ [Understanding the theme structure](/articles/structure)

@@ -21,7 +21,7 @@ The sidebar of the theme uses the `main` menu. Add all the items for your sideba
 
 - name → Title of the menu item
 - url → Path to navigate
-- weight → USed to decide the order of menu items
+- weight → Used to decide the order of menu items
 
 If the link points to an external website, the external icon is already displayed.
 
