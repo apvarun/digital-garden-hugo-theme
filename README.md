@@ -50,7 +50,7 @@ git submodule add https://github.com/apvarun/digital-garden-hugo-theme.git theme
 
 ## Setting up
 
-[Go to documentation](https://github.com/apvarun/digital-garden-hugo-theme/wiki)
+[Go to documentation](https://digital-garden-hugo-theme.vercel.app/articles/installation/)
 
 ## Issues
 
