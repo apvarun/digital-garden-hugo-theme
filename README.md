@@ -7,7 +7,7 @@
 
 Build your own personal Digital Garden effortlessly with this Hugo theme
 
-[Live Demo](https://digital-garden-hugo-theme.vercel.app/) &nbsp; | &nbsp; [Documentation](https://github.com/apvarun/digital-garden-hugo-theme/wiki) &nbsp; | &nbsp; [Buy me a coffee](https://www.buymeacoffee.com/apvarun)
+[Live Demo](https://digital-garden-hugo-theme.vercel.app/) &nbsp; | &nbsp; [Documentation](https://digital-garden-hugo-theme.vercel.app/articles/installation/) &nbsp; | &nbsp; [Buy me a coffee](https://www.buymeacoffee.com/apvarun)
 
 ![Digital Garden Icon](https://github.com/apvarun/digital-garden-hugo-theme/raw/main/images/digital-garden-logo.png)
 
