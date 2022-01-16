@@ -5,8 +5,8 @@
   "scripts": {
     "dev:css": "NODE_ENV=development ./node_modules/tailwindcss/lib/cli.js -i ./themes/digitalgarden/assets/css/tailwind.css -o ./static/css/main.css -w",
     "build:css": "NODE_ENV=production ./node_modules/tailwindcss/lib/cli.js -i ./themes/digitalgarden/assets/css/tailwind.css -o ./static/css/main.css --minify",
-    "dev:hugo": "hugo serve",
-    "dev": "concurrently  \"npm run dev:css\" \"npm run dev:hugo\"",
+    "develop": "concurrently  \"npm run dev:css\" \"npm run dev:hugo\"",
+    "dev": "hugo serve",
     "build": "npm run build:css && hugo --gc --minify"
   },
   "keywords": [],
