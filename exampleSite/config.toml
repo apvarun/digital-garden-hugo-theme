@@ -45,33 +45,37 @@ googleAnalytics = "UA-PROPERTY_ID"
   url = 'https://github.com'
   weight = 2
 [[menu.social]]
+  name = 'GitLab'
+  url = 'https://gitlab.com'
+  weight = 3
+[[menu.social]]
   name = 'LinkedIn'
   url = 'https://linkedin.com'
-  weight = 3
+  weight = 4
 [[menu.social]]
   name = 'Instagram'
   url = 'https://instagram.com'
-  weight = 4
+  weight = 5
 [[menu.social]]
   name = 'Dribbble'
   url = 'https://dribbble.com'
-  weight = 5
+  weight = 6
 [[menu.social]]
   name = 'Codepen'
   url = 'https://codepen.io'
-  weight = 6
+  weight = 7
 [[menu.social]]
   name = 'Twitch'
   url = 'https://twitch.com'
-  weight = 7
+  weight = 8
 [[menu.social]]
   name = 'Email'
   url = 'mailto:user@example.org'
-  weight = 8
+  weight = 9
 [[menu.social]]
   name = 'RSS'
   url = '/articles/index.xml'
-  weight = 9
+  weight = 10
 
 
 # syntax highlight settings
