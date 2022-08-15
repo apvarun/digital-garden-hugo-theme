@@ -47,6 +47,8 @@
         <span class="sr-only">{{ .Name }}</span>
         {{ if eq .Name "Twitter" }}
         <span>{{- partial "icon/twitterIcon.html" . -}}</span>
+        {{ else if eq .Name "Codeberg" }}
+        <span>{{- partial "icon/codebergIcon.html" . -}}</span>
         {{ else if eq .Name "GitHub" }}
         <span>{{- partial "icon/githubIcon.html" . -}}</span>
         {{ else if eq .Name "LinkedIn" }}
