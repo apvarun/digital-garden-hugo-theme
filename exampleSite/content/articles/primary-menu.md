@@ -20,7 +20,7 @@ The sidebar of the theme uses the `main` menu. Add all the items for your sideba
 [[menu.main]]
   name = 'Articles'
   url = '/articles'
-  weight = 2
+  weight = 3
 ```
 
 - `name` → Title of the menu item
