@@ -51,6 +51,8 @@
         <span>{{- partial "icon/codebergIcon.html" . -}}</span>
         {{ else if eq .Name "GitHub" }}
         <span>{{- partial "icon/githubIcon.html" . -}}</span>
+        {{ else if eq .Name "GitLab" }}
+        <span>{{- partial "icon/gitlabIcon.html" . -}}</span>
         {{ else if eq .Name "LinkedIn" }}
         <span>{{- partial "icon/linkedinIcon.html" . -}}</span>
         {{ else if eq .Name "Mastodon" }}
