@@ -20,7 +20,7 @@
   <ul class="list-none flex flex-col gap-1">
     {{ range .Site.Menus.main }}
     <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between {{ if eq .URL $permalink }} bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 dark:selection:bg-slate-400 {{ else }} hover:bg-slate-200 dark:hover:bg-slate-700 {{ end }}"
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between {{ if .Params.Header }} text-slate-400 {{ elif eq .URL $permalink }} bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 dark:selection:bg-slate-400 {{ else }} hover:bg-slate-200 dark:hover:bg-slate-700 {{ end }}"
         href="{{ .URL }}" {{ if strings.HasPrefix .URL "http" }} target="_blank" rel="noopener" {{ end }}>
         <span>{{ .Name }}</span>
         {{ if strings.HasPrefix .URL "http" }}
