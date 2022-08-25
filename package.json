@@ -13,9 +13,9 @@
   "author": "Varun A P",
   "license": "MIT",
   "dependencies": {
-    "@tailwindcss/line-clamp": "^0.3.0",
-    "@tailwindcss/typography": "^0.5.0",
-    "tailwindcss": "^3.0.6"
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.4",
+    "tailwindcss": "^3.1.7"
   },
   "devDependencies": {
     "concurrently": "^6.4.0"
