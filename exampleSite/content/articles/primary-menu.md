@@ -14,14 +14,19 @@ The sidebar of the theme uses the `main` menu. Add all the items for your sideba
   url = '/'
   weight = 1
 [[menu.main]]
+  name = 'Content'
+  params.header = true
+  weight = 2
+[[menu.main]]
   name = 'Articles'
   url = '/articles'
-  weight = 2
+  weight = 3
 ```
 
-- name → Title of the menu item
-- url → Path to navigate
-- weight → Used to decide the order of menu items
+- `name` → Title of the menu item
+- `url` → Path to navigate
+- `weight` → Used to decide the order of menu items
+- `params.header` → Display menu item as header
 
 If the link points to an external website, the external icon is already displayed.
 
