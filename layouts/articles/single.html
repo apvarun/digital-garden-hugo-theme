@@ -14,10 +14,11 @@
     <a href="{{ .Permalink }}">
       <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">{{ .Title }}</h2>
     </a>
+    {{- partial "search.html" . -}}
     <div class="space-y-2.5">
       {{ range .Data.Pages -}}
       {{ $isCurrentPage := eq .RelPermalink $permalink }}
-      <a class="block px-3 py-4 {{ if $isCurrentPage }} bg-slate-900 dark:bg-slate-700 text-slate-50 {{ else }} hover:bg-slate-200 dark:hover:bg-slate-700 {{ end }}"
+      <a class="article block px-3 py-4 {{ if $isCurrentPage }} bg-slate-900 dark:bg-slate-700 text-slate-50 {{ else }} hover:bg-slate-200 dark:hover:bg-slate-700 {{ end }}"
         href="{{ .RelPermalink }}">
         {{ $title := .Params.title }}
         {{ with .Params.images }}
