@@ -20,6 +20,7 @@ Supported values for the social menu item name:
 - GitHub
 - LinkedIn
 - Instagram
+- Mastodon
 - Dribbble
 - Codepen
 - Twitch
