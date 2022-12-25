@@ -25,6 +25,7 @@ Build your own personal Digital Garden effortlessly with this Hugo theme
 - Built-in 404 page
 - Google Analytics support
 - Sitemap and RSS feed for your content (OOTB with Hugo)
+- Newsletter support (Substack, Buttondown and Revue)
 
 ## Preview
 
