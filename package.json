@@ -1,6 +1,6 @@
 {
   "name": "digital-garden-theme",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Build your own personal Digital Garden effortlessly with this Hugo theme",
   "scripts": {
     "dev:css": "NODE_ENV=development ./node_modules/tailwindcss/lib/cli.js -i ./themes/digitalgarden/assets/css/tailwind.css -o ./static/css/main.css -w",
