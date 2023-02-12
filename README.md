@@ -25,6 +25,7 @@ Build your own personal Digital Garden effortlessly with this Hugo theme
 - Built-in 404 page
 - Google Analytics support
 - Sitemap and RSS feed for your content (OOTB with Hugo)
+- Newsletter support (Substack, Buttondown and Revue)
 
 ## Preview
 
@@ -60,6 +61,28 @@ If you have a question, please [open an issue](https://github.com/apvarun/digita
 
 Contributions, issues, and feature requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/apvarun"><img alt="apvarun"
+          src="https://avatars.githubusercontent.com/u/8411309?v=4" width="117" /><br />apvarun</a></td>
+    <td align="center"><a href="https://github.com/PetiPandaRou"><img alt="PetiPandaRou"
+          src="https://avatars.githubusercontent.com/u/323248?v=4" width="117" /><br />PetiPandaRou</a></td>
+    <td align="center"><a href="https://github.com/snyk-bot"><img alt="snyk-bot"
+          src="https://avatars.githubusercontent.com/u/19733683?v=4" width="117" /><br />snyk-bot</a></td>
+    <td align="center"><a href="https://github.com/darmiel"><img alt="darmiel"
+          src="https://avatars.githubusercontent.com/u/71837281?v=4" width="117" /><br />darmiel</a></td>
+    <td align="center"><a href="https://github.com/ProfessorLogout"><img alt="ProfessorLogout"
+          src="https://avatars.githubusercontent.com/u/13572444?v=4" width="117" /><br />ProfessorLogout</a></td>
+    <td align="center"><a href="https://github.com/marians"><img alt="marians"
+          src="https://avatars.githubusercontent.com/u/273727?v=4" width="117" /><br />marians</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Skyth3r"><img alt="Skyth3r"
+          src="https://avatars.githubusercontent.com/u/14279561?v=4" width="117" /><br />Skyth3r</a></td>
+    <td align="center"><a href="https://github.com/jbuchner-gg"><img alt="jbuchner-gg"
+          src="https://avatars.githubusercontent.com/u/93672933?v=4" width="117" /><br />jbuchner-gg</a></td>
+  </tr>
+</table>
 
 ## License
 

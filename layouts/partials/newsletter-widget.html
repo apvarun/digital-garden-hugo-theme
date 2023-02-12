@@ -1,12 +1,87 @@
-<div class="revue-widget">
-  <form action="{{ .Site.Params.newsletter.path }}" method="post" name="revue-form" target="_blank">
-    <div class="text-bold text-sm">{{ if .Site.Params.newsletter.title }}{{ .Site.Params.newsletter.title }}{{ else }}Subscribe to my newsletter{{ end }}</div>
-    {{ with .Site.Params.newsletter.description }}
-    <p class="text-xs my-1 text-slate-500">{{ . }}</p>
-    {{ end }}
+<div class="newsletter-widget">
+  <div class="text-bold text-sm">{{ if .Site.Params.newsletter.title }}{{ .Site.Params.newsletter.title }}{{ else }}Subscribe to my newsletter{{ end }}</div>
+  {{ with .Site.Params.newsletter.description }}
+  <p class="text-xs my-1 text-slate-500">{{ . }}</p>
+  {{ end }}
+
+  {{ $action := "" }}
+  {{ if (eq .Site.Params.newsletter.provider "buttondown") }}
+  {{ $action = .Site.Params.newsletter.path }}
+  {{ else if (eq .Site.Params.newsletter.provider "substack") }}
+  {{ $action = "" }}
+  {{ else }}
+  {{ $url := print "https://www.getrevue.co/profile/" .Site.Params.newsletter.path }}
+  {{ $url = print $url "/add_subscriber" }}
+  {{ $action = $url }}
+  {{ end }}
+
+  {{ $isRevue := not (or (eq .Site.Params.newsletter.provider "buttondown") (eq .Site.Params.newsletter.provider "substack")) }}
+
+  <form action="{{ $action }}" method="post" id="newsletter_form" name="{{ if $isRevue }}revue-form{{ end }}" target="_blank">
     <div class="mt-2">
-      <input type="email" class="w-full px-1.5 py-0.5 text-sm rounded border dark:border-slate-700 dark:bg-slate-600" name="member[email]" id="member_email" placeholder="Your email address...">
-      <input type="submit" class="mt-2 w-full text-center text-sm bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 py-1 rounded" name="member[subscribe]" id="member_submit" value="Subscribe">
+      <input type="email" class="w-full px-1.5 py-0.5 text-sm rounded border dark:border-slate-700 dark:bg-slate-600" name="{{ if $isRevue }}member[email]{{ else }}email{{ end }}" id="member_email" placeholder="Your email address...">
+      <input type="submit" class="mt-2 w-full text-center text-sm bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 py-1 rounded cursor-pointer" name="{{ if $isRevue }}member[subscribe]{{ else }}subscribe{{ end }}" id="member_submit" value="Subscribe">
     </div>
   </form>
+
+  {{ if (eq .Site.Params.newsletter.provider "substack") }}
+
+  <script>
+    const substack = document.getElementById('newsletter_form');
+    const submitButton = document.getElementById('member_submit');
+    substack.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = document.getElementById('member_email').value;
+
+      if (!email) return;
+
+      submitButton.setAttribute('disabled', true);
+      submitButton.value = 'Subscribing...';
+
+      const path = "{{ .Site.Params.newsletter.path }}"
+      const domain = new URL(path)
+
+      try {
+        const response = await fetch("https://us-central1-substackapi.cloudfunctions.net/subscribe", {
+          headers: {
+            "content-type": "application/json",
+          },
+          "referrer": "",
+          "referrerPolicy": "strict-origin-when-cross-origin",
+          "body": "{\"email\":\"" + email + "\",\"domain\":\"" + domain.host + "\"}",
+          "method": "POST",
+          "mode": "cors",
+          "credentials": "omit"
+        });
+
+        if(response.status === 200) {
+          // Success
+          showToast('Subscribed successfully. Check your inbox.')
+        } else {
+          // Error
+          throw new Error(response.statusText);
+        }
+      }catch{
+        // Show error
+        showToast('Something went wrong. Try later.', true)
+      }
+      submitButton.setAttribute('disabled', false);
+      submitButton.value = 'Subscribe';
+
+    });
+    function showToast(message, error = false) {
+      const toast = document.createElement('div');
+      toast.classList.add('absolute', 'bottom-2', 'right-4', 'bg-slate-800', 'text-white', 'px-2', 'py-1', 'rounded', 'w-60', 'z-[50]', 'text-right');
+      if(error){
+        toast.classList.add('border-2', 'border-red-800');
+      }
+      toast.innerText = message;
+      document.body.appendChild(toast);
+      setTimeout(() => {
+        toast.remove();
+      }, 2500);
+    }
+  </script>
+
+  {{ end }}
 </div>
