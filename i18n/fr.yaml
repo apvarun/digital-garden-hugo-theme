@@ -1,0 +1,15 @@
+- id: select_article
+  translation:
+    other: "Sélectionnez un article à lire"
+
+- id: planted
+  translation:
+    other: "Planté le"
+
+- id: pruned
+  translation:
+    other: "Émondé le"
+
+- id: view_project
+  translation:
+    other: "Voir le projet"

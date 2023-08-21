@@ -1,8 +1,6 @@
 {{ define "main" }}
 
 {{ $permalink := .RelPermalink }}
-{{ $date := .Date.Format "January 2, 2006" }}
-{{ $lastmod := .Lastmod.Format "January 2, 2006" }}
 
 <div class="flex flex-1 h-screen relative w-full min-w-0">
 
@@ -43,12 +41,13 @@
       {{ $title := .Params.title }}
       <h1 class="!mb-2">{{ $title }}</h1>
 
-	  {{ if .Date }}
-      <p class="text-sm text-slate-500 !mb-8"> Planted {{ $date }}
-		{{ if ne $lastmod $date}}
-			<br/> Pruned {{ .Lastmod.Format "January 2, 2006" }}
-        {{ end }}
-	  </p>
+      {{ if .Date }}
+      <p class="text-sm text-slate-500 !mb-8"> 
+      {{ i18n "planted" }} {{ .Date | time.Format ":date_long" }}
+		  {{ if ne .Lastmod .Date}}
+			<br/> {{ i18n "pruned" }} {{ .Lastmod | time.Format ":date_long" }}
+      {{ end }}
+	    </p>
       {{ end }}
 
       {{ with .Params.images }}

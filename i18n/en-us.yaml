@@ -1,0 +1,15 @@
+- id: select_article
+  translation:
+    other: "Select a post to read"
+
+- id: planted
+  translation:
+    other: "Planted"
+
+- id: pruned
+  translation:
+    other: "Pruned"
+
+- id: view_project
+  translation:
+    other: "View Project"
