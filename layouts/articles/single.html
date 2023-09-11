@@ -46,23 +46,8 @@
 	  {{ if .Date }}
       <p class="text-sm text-slate-500 !mb-8"> Planted {{ $date }}
 		{{ if ne $lastmod $date}}
-			<br/> Last tended to on {{ .Lastmod.Format "January 2, 2006" }}
+			<br/> Pruned {{ .Lastmod.Format "January 2, 2006" }}
         {{ end }}
-      <br/>
-      {{ if gt .ReadingTime 1 }}
-        {{ .Scratch.Set "readingTime" "minutes" }}
-      {{ else }}
-        {{ .Scratch.Set "readingTime" "minute" }}
-      {{ end }}
-      Reading time: {{ .ReadingTime }} {{ .Scratch.Get "readingTime" }}
-      <br/> Tags:
-      {{ with .Param "tags" }}
-        {{ range $index, $tag := (. | sort) }} 
-          {{ with $.Site.GetPage (printf "/%s/%s" "tags" $tag) }}
-            <a href="{{ .Permalink }}">#{{ $tag | urlize }}</a>
-          {{ end }}
-        {{ end }}
-      {{ end }}
 	  </p>
       {{ end }}
 
@@ -73,8 +58,6 @@
       {{ end }}
 
       {{ .Content }}
-      <hr>
-      {{- partial "shortcodes/buymeacoffee.html" . -}}
     </article>
   </div>
 
