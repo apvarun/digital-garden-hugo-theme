@@ -4,11 +4,11 @@
 {{ $date := .Date.Format "January 2, 2006" }}
 {{ $lastmod := .Lastmod.Format "January 2, 2006" }}
 
-<div class="flex flex-1 h-screen relative w-full min-w-0">
+<div class="flex h-screen relative">
 
   <section
     class="will-change-transform transform transition-transform -translate-x-[200%] absolute top-0 left-0 lg:relative
-  lg:translate-x-0 lg:basis-[400px] h-full bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 lg:flex flex-col py-3 overflow-y-auto scroll-area flex-shrink-0">
+  lg:translate-x-0 lg:min-w-[400px] lg:w-1/4 h-full bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 lg:flex flex-col py-3 overflow-y-auto scroll-area">
     {{$Section := .Site.GetPage "section" .Section }}
     {{ with $Section }}
     <a href="{{ .Permalink }}">
