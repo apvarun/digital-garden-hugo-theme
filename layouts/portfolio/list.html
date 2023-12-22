@@ -7,6 +7,8 @@
     <a href="{{ .Permalink }}" class="inline-block">
       <h2 class="font-bold text-4xl lg:text-6xl py-1 px-3 mb-4 inline-block">{{ .Title }}</h2>
     </a>
+    <h3 class="ml-3 py-8 lg:py-0 lg:mx-2 text-2xl lg:text-5xl font-bold lg:font-medium !leading-tight content-center">
+      {{ $description }}</h3>
     <div class="space-y-2.5 grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-4">
       {{ range $index, $page := .Data.Pages -}}
       <a class="block px-3 py-4 row-span-2" href="{{ .RelPermalink }}">
@@ -28,8 +30,7 @@
           View Project →</p>
       </a>
       {{ if and (eq $index 0) $description }}
-      <h3 class="ml-3 py-8 lg:py-0 lg:mx-2 text-2xl lg:text-5xl font-bold lg:font-medium !leading-tight content-center">
-        {{ $description }}</h3>
+      
       {{ end }}
       {{ end -}}
     </div>
