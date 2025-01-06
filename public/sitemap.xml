@@ -2,34 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/articles/installation/</loc>
-    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.org/articles/</loc>
-    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/</loc>
-    <lastmod>2021-12-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/articles/structure/</loc>
-    <lastmod>2021-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/articles/primary-menu/</loc>
-    <lastmod>2021-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/articles/social-menu/</loc>
-    <lastmod>2021-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/articles/newsletter/</loc>
-    <lastmod>2021-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/articles/google-analytics/</loc>
-    <lastmod>2021-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/articles/metatags/</loc>
-    <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/categories/</loc>
+  </url><url>
+    <loc>https://example.org/</loc>
   </url><url>
     <loc>https://example.org/stack/</loc>
   </url><url>

@@ -36,10 +36,6 @@ googleAnalytics = "UA-PROPERTY_ID"
   url = '/articles'
   weight = 3
 [[menu.main]]
-  name = 'Portfolio'
-  url = '/portfolio'
-  weight = 4
-[[menu.main]]
   name = 'Stack'
   url = '/stack'
   weight = 5
