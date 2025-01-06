@@ -34,19 +34,39 @@ googleAnalytics = "UA-PROPERTY_ID"
 [[menu.main]]
   name = 'Articles'
   url = '/articles'
-  weight = 3
+  weight = 3 
+[[menu.main]]
+  name = 'Learning Out Loud'
+  url = '/learning_out_loud'
+  weight = 4 
+[[menu.main]]
+  name = 'Seedlings'
+  url = '/seedlings'
+  weight = 5
 [[menu.main]]
   name = 'Stack'
   url = '/stack'
-  weight = 5
-[[menu.main]]
-  name = 'Links'
-  params.header = true
   weight = 6
 [[menu.main]]
-  name = 'Polywork'
-  url = 'https://polywork.com'
+  name = 'Links for Learning'
+  params.header = true
   weight = 7
+[[menu.main]]
+  name = '#100Devs'
+  url = 'https://leonnoel.com/100devs/'
+  weight = 8
+[[menu.main]]
+  name = 'Teach Yourself Computer Science'
+  url = 'https://teachyourselfcs.com'
+  weight = 9
+[[menu.main]]
+  name = 'The Multiverse School'
+  url = 'https://themultiverse.school'
+  weight = 10
+[[menu.main]]
+  name = 'DeepThought Education'
+  url = 'https://deepthought.education'
+  weight = 11
 
 [[menu.social]]
   name = 'GitHub'
