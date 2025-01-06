@@ -50,15 +50,15 @@ googleAnalytics = "UA-PROPERTY_ID"
 
 [[menu.social]]
   name = 'GitHub'
-  url = 'https://github.com'
+  url = 'https://github.com/gailhantson'
   weight = 2
 [[menu.social]]
   name = 'LinkedIn'
-  url = 'https://linkedin.com'
+  url = 'https://www.linkedin.com/in/gail-hantson/'
   weight = 3
 [[menu.social]]
   name = 'Email'
-  url = 'mailto:user@example.org'
+  url = 'mailto:gailhantson@hotmail.com'
   weight = 8
 [[menu.social]]
   name = 'RSS'
