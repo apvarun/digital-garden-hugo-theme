@@ -8,7 +8,7 @@
   <link rel="icon" href="/favicon.ico">
 
   <title>
-    Articles - Gail H. Digital Garden
+    Learning Out Loud - Gail H. Digital Garden
   </title>
 
   <meta name="description" content="Hypermedia, semantic networks, and bricolage" /><meta name="generator" content="Hugo 0.139.4">
@@ -18,9 +18,9 @@
   
   
 
-  <meta property="og:url" content="https://example.org/articles/">
+  <meta property="og:url" content="https://example.org/learning_out_loud/">
   <meta property="og:site_name" content="Gail H. Digital Garden">
-  <meta property="og:title" content="Articles">
+  <meta property="og:title" content="Learning Out Loud">
   <meta property="og:description" content="Hypermedia, semantic networks, and bricolage">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
@@ -30,17 +30,17 @@
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://example.org/digital-garden-logo.png">
-  <meta name="twitter:title" content="Articles">
+  <meta name="twitter:title" content="Learning Out Loud">
   <meta name="twitter:description" content="Hypermedia, semantic networks, and bricolage">
 
 
   
-  <meta itemprop="name" content="Articles">
+  <meta itemprop="name" content="Learning Out Loud">
   <meta itemprop="description" content="Hypermedia, semantic networks, and bricolage">
   <meta itemprop="image" content="https://example.org/digital-garden-logo.png">
 
   
-  <meta itemprop="name" content="Articles">
+  <meta itemprop="name" content="Learning Out Loud">
   <meta itemprop="description" content="Hypermedia, semantic networks, and bricolage">
   <meta itemprop="image" content="https://example.org/digital-garden-logo.png">
 </head>
@@ -86,7 +86,7 @@
     </li>
     
     <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 dark:selection:bg-slate-400 "
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
         href="/articles" >
         <span>Articles</span>
         
@@ -94,7 +94,7 @@
     </li>
     
     <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 dark:selection:bg-slate-400 "
         href="/learning_out_loud" >
         <span>Learning Out Loud</span>
         
@@ -297,50 +297,6 @@
   <line x1="4" y1="12" x2="20" y2="12" />
   <line x1="4" y1="18" x2="16" y2="18" />
 </svg></button>
-
-
-<div class="flex flex-1 h-screen relative w-full min-w-0">
-
-  <section
-    class="w-full h-full md:min-w-[400px] md:w-1/4 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col py-3 overflow-y-auto scroll-area flex-shrink-0">
-    <a href="https://example.org/articles/">
-      <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">Articles</h2>
-    </a>
-<label class="mb-2 block px-2">
-  <span></span>
-  <input type="text" placeholder="Search articles" class="searchInput bg-white rounded px-2 py-1 w-full border" />
-</label>
-<script>
-  const searchElt = document.querySelector('.searchInput')
-  if (searchElt) {
-    searchElt.addEventListener('input', evt => {
-      const value = evt.target.value || '';
-
-      const articles = document.querySelectorAll('.article')
-      if (!value) {
-        articles.forEach(article => article.classList.remove('hidden'))
-      } else {
-        articles.forEach(article => article.classList.add('hidden'))
-        Array.from(articles).filter(article => {
-          const title = article.querySelector('h3')
-          if (!title) return false;
-
-          return title.textContent.toLowerCase().includes(value.toLowerCase())
-        }).forEach(article => article.classList.remove('hidden'))
-      }
-    })
-  }
-</script>
-<div class="space-y-2.5">
-      </div>
-  </section>
-
-  <main class="hidden md:grid h-screen place-items-center flex-1">
-    <p class="text-center p-8 text-2xl text-slate-300 dark:text-slate-700">Select a post to read</p>
-  </main>
-
-</div>
-
 
   
 <script type="text/javascript" src="/main.js" defer></script>
