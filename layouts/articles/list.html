@@ -1,36 +1,39 @@
 {{ define "main" }}
 
-<div class="flex flex-1 h-screen relative w-full min-w-0">
+{{ $description := .Description }}
 
-  <section
-    class="w-full h-full md:min-w-[400px] md:w-1/4 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col py-3 overflow-y-auto scroll-area flex-shrink-0">
-    <a href="{{ .Permalink }}">
-      <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">{{ .Title }}</h2>
+<main class="h-screen overflow-y-auto w-full">
+  <section class="w-full md:max-w-xl xl:max-w-4xl 2xl:max-w-7xl mx-auto flex flex-col px-6 py-20">
+    <a href="{{ .Permalink }}" class="inline-block">
+      <h2 class="font-bold text-4xl lg:text-6xl py-1 px-3 mb-4 inline-block">{{ .Title }}</h2>
     </a>
-    {{- partial "search.html" . -}}
-    <div class="space-y-2.5">
-      {{ range .Data.Pages -}}
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="{{ .RelPermalink }}">
-
+    <div class="space-y-2.5 grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-4">
+      {{ range $index, $page := .Data.Pages -}}
+      <a class="block px-3 py-4 row-span-2" href="{{ .RelPermalink }}">
         {{ $title := .Params.title }}
+
         {{ with .Params.images }}
         {{- range first 1 . }}
-        <img class="rounded max-w-full mb-4" src="{{ . }}" alt="{{ $title }}" />
+        <img class="rounded max-w-full w-full mb-4" src="{{ . }}" alt="{{ $title }}" />
         {{ end -}}
         {{ end }}
-        <h3 class="text-lg font-semibold mb-0.5">{{ $title }}</h3>
+        <h3 class="text-lg font-semibold mb-0.5 lg:text-xl 2xl:text-3xl">{{ $title }}</h3>
+        {{ with .Description }}
         <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          {{ .Summary }}
+          {{ . }}
         </div>
+        {{ end }}
+        <p
+          class="underline decoration-slate-500 text-slate-500 underline-offset-8 font-medium mt-2 hover:text-slate-800 hover:decoration-slate-800 dark:hover:text-slate-400 dark:hover:decoration-slate-400">
+          View Project →</p>
       </a>
+      {{ if and (eq $index 0) $description }}
+      <h3 class="ml-3 py-8 lg:py-0 lg:mx-2 text-2xl lg:text-5xl font-bold lg:font-medium !leading-tight content-center">
+        {{ $description }}</h3>
+      {{ end }}
       {{ end -}}
     </div>
   </section>
-
-  <main class="hidden md:grid h-screen place-items-center flex-1">
-    <p class="text-center p-8 text-2xl text-slate-300 dark:text-slate-700">Select a post to read</p>
-  </main>
-
-</div>
+</main>
 
 {{ end }}
