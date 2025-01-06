@@ -17,7 +17,7 @@ googleAnalytics = "UA-PROPERTY_ID"
   weight = 1
 [[menu.main]]
   name = 'About'
-  params.header = true
+  url = '/about'
   weight = 2
 [[menu.main]]
   name = 'Content'
