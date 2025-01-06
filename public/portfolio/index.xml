@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio (demo) on Personal Digital Garden</title>
+    <link>http://localhost:1313/portfolio/</link>
+    <description>Recent content in Portfolio (demo) on Personal Digital Garden</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pastry jelly cookie sugar donut orange</title>
+      <link>http://localhost:1313/portfolio/design1/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/design1/</guid>
+      <description>&lt;p&gt;Croissant orange croissant dolor orange croissant. Lollipop biscuit donut vanilla sweet croissant. Apple donut candy tiramisu cream jelly. Croissant sweet cookie vanilla tiramisu dolor.&lt;/p&gt;&#xA;&lt;p&gt;Pastry jelly cookie sugar donut orange. Candy sweet cookie sweet donut marzipan. Vanilla cookie sprinkles pastry orange cookie. Marzipan donut ipsum sugar biscuit vanilla.&lt;/p&gt;&#xA;&lt;p&gt;Candy cookie muffin pastry lollipop vanilla. Apple orange tiramisu jelly ipsum sugar. Candy cake orange ipsum orange muffin. Sugar pastry orange cream orange pastry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cream sugar apple donut apple croissant</title>
+      <link>http://localhost:1313/portfolio/design2/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/design2/</guid>
+      <description>&lt;p&gt;Tiramisu sprinkles marzipan lollipop marzipan dolor. Jelly candy marzipan vanilla candy ipsum. Sugar croissant lollipop vanilla cream marzipan. Sprinkles croissant cream dolor jelly marzipan.&lt;/p&gt;&#xA;&lt;p&gt;Pastry jelly cookie sugar donut orange. Candy sweet cookie sweet donut marzipan. Vanilla cookie sprinkles pastry orange cookie. Marzipan donut ipsum sugar biscuit vanilla.&lt;/p&gt;&#xA;&lt;p&gt;Candy cookie muffin pastry lollipop vanilla. Apple orange tiramisu jelly ipsum sugar. Candy cake orange ipsum orange muffin. Sugar pastry orange cream orange pastry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apple cream vanilla apple marzipan muffin</title>
+      <link>http://localhost:1313/portfolio/design3/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/design3/</guid>
+      <description>&lt;p&gt;Tiramisu sprinkles marzipan lollipop marzipan dolor. Jelly candy marzipan vanilla candy ipsum. Sugar croissant lollipop vanilla cream marzipan. Sprinkles croissant cream dolor jelly marzipan.&lt;/p&gt;&#xA;&lt;p&gt;Pastry jelly cookie sugar donut orange. Candy sweet cookie sweet donut marzipan. Vanilla cookie sprinkles pastry orange cookie. Marzipan donut ipsum sugar biscuit vanilla.&lt;/p&gt;&#xA;&lt;p&gt;Candy cookie muffin pastry lollipop vanilla. Apple orange tiramisu jelly ipsum sugar. Candy cake orange ipsum orange muffin. Sugar pastry orange cream orange pastry.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
