@@ -1,12 +1,12 @@
 baseURL = "https://example.org/"
 languageCode = "en-us"
-title = "Personal Digital Garden"
+title = "Gail H. Digital Garden"
 theme = "digitalgarden"
 
 googleAnalytics = "UA-PROPERTY_ID"
 
 [Params]
-  description = "My Digital Garden on the Internet"
+  description = "Hypermedia, semantic networks, and bricolage"
   images = ['/digital-garden-logo.png']
   enableSearch = true
 
@@ -53,10 +53,6 @@ googleAnalytics = "UA-PROPERTY_ID"
   weight = 7
 
 [[menu.social]]
-  name = 'Twitter'
-  url = 'https://twitter.com'
-  weight = 1
-[[menu.social]]
   name = 'GitHub'
   url = 'https://github.com'
   weight = 2
@@ -64,22 +60,6 @@ googleAnalytics = "UA-PROPERTY_ID"
   name = 'LinkedIn'
   url = 'https://linkedin.com'
   weight = 3
-[[menu.social]]
-  name = 'Instagram'
-  url = 'https://instagram.com'
-  weight = 4
-[[menu.social]]
-  name = 'Dribbble'
-  url = 'https://dribbble.com'
-  weight = 5
-[[menu.social]]
-  name = 'Codepen'
-  url = 'https://codepen.io'
-  weight = 6
-[[menu.social]]
-  name = 'Twitch'
-  url = 'https://twitch.com'
-  weight = 7
 [[menu.social]]
   name = 'Email'
   url = 'mailto:user@example.org'
