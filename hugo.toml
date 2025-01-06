@@ -16,24 +16,24 @@ googleAnalytics = "UA-PROPERTY_ID"
   url = '/'
   weight = 1
 [[menu.main]]
-  name = 'Content'
+  name = 'About'
   params.header = true
   weight = 2
 [[menu.main]]
+  name = 'Content'
+  params.header = true
+  weight = 3
+[[menu.main]]
   name = 'Articles'
   url = '/articles'
-  weight = 3 
-[[menu.main]]
-  name = 'Learning Out Loud'
-  url = '/learning_out_loud'
   weight = 4 
 [[menu.main]]
   name = 'Seedlings'
   url = '/seedlings'
   weight = 5
 [[menu.main]]
-  name = 'Stack'
-  url = '/stack'
+  name = 'Learning Out Loud'
+  url = '/learning_out_loud'
   weight = 6
 [[menu.main]]
   name = 'Links for Learning'
@@ -55,6 +55,15 @@ googleAnalytics = "UA-PROPERTY_ID"
   name = 'DeepThought Education'
   url = 'https://deepthought.education'
   weight = 11
+[[menu.main]]
+  name = 'Misc'
+  params.header = true
+  weight = 12
+[[menu.main]]
+  name = 'Stack'
+  url = '/stack'
+  weight = 13
+
 
 [[menu.social]]
   name = 'GitHub'
