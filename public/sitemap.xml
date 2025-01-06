@@ -8,6 +8,8 @@
   </url><url>
     <loc>https://example.org/</loc>
   </url><url>
+    <loc>https://example.org/articles/hypermedia/</loc>
+  </url><url>
     <loc>https://example.org/stack/</loc>
   </url><url>
     <loc>https://example.org/tags/</loc>
