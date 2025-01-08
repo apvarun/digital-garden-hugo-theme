@@ -44,7 +44,7 @@ googleAnalytics = "UA-PROPERTY_ID"
   url = 'https://leonnoel.com/100devs/'
   weight = 8
 [[menu.main]]
-  name = 'Teach Yourself Computer Science'
+  name = 'Teach Yourself CS'
   url = 'https://teachyourselfcs.com'
   weight = 9
 [[menu.main]]
@@ -55,14 +55,6 @@ googleAnalytics = "UA-PROPERTY_ID"
   name = 'DeepThought Education'
   url = 'https://deepthought.education'
   weight = 11
-[[menu.main]]
-  name = 'Misc'
-  params.header = true
-  weight = 12
-[[menu.main]]
-  name = 'Stack'
-  url = '/stack'
-  weight = 13
 
 
 [[menu.social]]
