@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/articles/installation/</loc>
+    <loc>https://frizzande.io/articles/installation/</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/articles/</loc>
+    <loc>https://frizzande.io/articles/</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://frizzande.io/</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/articles/structure/</loc>
+    <loc>https://frizzande.io/articles/structure/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/articles/primary-menu/</loc>
+    <loc>https://frizzande.io/articles/primary-menu/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/articles/social-menu/</loc>
+    <loc>https://frizzande.io/articles/social-menu/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/articles/newsletter/</loc>
+    <loc>https://frizzande.io/articles/newsletter/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/articles/google-analytics/</loc>
+    <loc>https://frizzande.io/articles/google-analytics/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/articles/metatags/</loc>
+    <loc>https://frizzande.io/articles/metatags/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/design1/</loc>
+    <loc>https://frizzande.io/portfolio/design1/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/</loc>
+    <loc>https://frizzande.io/portfolio/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/design2/</loc>
+    <loc>https://frizzande.io/portfolio/design2/</loc>
     <lastmod>2021-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/design3/</loc>
+    <loc>https://frizzande.io/portfolio/design3/</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://frizzande.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/stack/</loc>
+    <loc>https://frizzande.io/stack/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://frizzande.io/tags/</loc>
   </url>
 </urlset>
