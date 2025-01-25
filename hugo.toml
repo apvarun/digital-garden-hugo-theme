@@ -8,7 +8,7 @@ tags = ["Hugo", "theme", "digital garden", "blog", "modern", "responsive"]
 features = ["clean", "3 column", "minimal", "digital garden", "mobile", "personal", "responsive", "simple", "tailwind", "blog", "white"]
 min_version = "0.121.1"
 
-baseURL = "https://example.org/"
+baseURL = "http://frizzande.io"
 languageCode = "en-us"
 title = "Personal Digital Garden"
 
