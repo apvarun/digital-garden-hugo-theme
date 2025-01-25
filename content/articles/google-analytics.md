@@ -1,6 +1,7 @@
 ---
 title: 6. Google Analytics
 date: 2021-12-18
+layout: single
 ---
 
 Digital garden theme utilizes the Hugo's [internal template](internal templates) for Google analytics and so both Google analytics v3 and GA v4 (gtag) are supported.
