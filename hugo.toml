@@ -21,7 +21,7 @@ googleAnalytics = "UA-PROPERTY_ID"
 
 [Params.newsletter]
   title = ""
-  description = "musings and offerings"
+  description = "thoughts in words"
 
   # Supports buttondown, substack and revue
   provider = "buttondown"
