@@ -33,33 +33,25 @@ googleAnalytics = "UA-PROPERTY_ID"
 
 [menu]
 [[menu.main]]
-  name = 'Home'
+  name = 'home'
   url = '/'
   weight = 1
 [[menu.main]]
-  name = 'Content'
-  params.header = true
+  name = 'about'
+  url = '/about'
   weight = 2
 [[menu.main]]
-  name = 'Articles'
-  url = '/articles'
+  name = 'words'
+  url = '/words'
   weight = 3
 [[menu.main]]
-  name = 'Portfolio'
-  url = '/portfolio'
+  name = 'audio'
+  url = '/audio'
   weight = 4
 [[menu.main]]
-  name = 'Stack'
-  url = '/stack'
+  name = 'images'
+  url = '/images'
   weight = 5
-[[menu.main]]
-  name = 'Links'
-  params.header = true
-  weight = 6
-[[menu.main]]
-  name = 'Polywork'
-  url = 'https://polywork.com'
-  weight = 7
 
 # [[menu.social]]
 #   name = 'Twitter'
@@ -91,7 +83,7 @@ googleAnalytics = "UA-PROPERTY_ID"
 #  weight = 7
 [[menu.social]]
   name = 'Email'
-  url = 'mailto:user@example.org'
+  url = 'mailto:ciao@frizzande.io'
   weight = 8
 #[[menu.social]]
 #  name = 'RSS'
