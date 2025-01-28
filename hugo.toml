@@ -9,8 +9,8 @@ features = ["clean", "3 column", "minimal", "digital garden", "mobile", "persona
 min_version = "0.121.1"
 
 baseURL = "http://frizzande.io"
-languageCode = "en-us"
-title = "Personal Digital Garden"
+languageCode = "en-au"
+title = "frizzande"
 
 googleAnalytics = "UA-PROPERTY_ID"
 
@@ -21,7 +21,7 @@ googleAnalytics = "UA-PROPERTY_ID"
 
 [Params.newsletter]
   title = ""
-  description = "A curated weekly digest once a week to your mailbox"
+  description = "musings and offerings"
 
   # Supports buttondown, substack and revue
   provider = "buttondown"
@@ -61,42 +61,42 @@ googleAnalytics = "UA-PROPERTY_ID"
   url = 'https://polywork.com'
   weight = 7
 
-[[menu.social]]
-  name = 'Twitter'
-  url = 'https://twitter.com'
-  weight = 1
-[[menu.social]]
-  name = 'GitHub'
-  url = 'https://github.com'
-  weight = 2
-[[menu.social]]
-  name = 'LinkedIn'
-  url = 'https://linkedin.com'
-  weight = 3
+# [[menu.social]]
+#   name = 'Twitter'
+#   url = 'https://twitter.com'
+#   weight = 1
+# [[menu.social]]
+#   name = 'GitHub'
+#   url = 'https://github.com'
+#   weight = 2
+# [[menu.social]]
+#   name = 'LinkedIn'
+#   url = 'https://linkedin.com'
+#   weight = 3
 [[menu.social]]
   name = 'Instagram'
-  url = 'https://instagram.com'
+  url = 'https://instagram.com/frizzande'
   weight = 4
-[[menu.social]]
-  name = 'Dribbble'
-  url = 'https://dribbble.com'
-  weight = 5
-[[menu.social]]
-  name = 'Codepen'
-  url = 'https://codepen.io'
-  weight = 6
-[[menu.social]]
-  name = 'Twitch'
-  url = 'https://twitch.com'
-  weight = 7
+#[[menu.social]]
+#  name = 'Dribbble'
+#  url = 'https://dribbble.com'
+#  weight = 5
+#[[menu.social]]
+#  name = 'Codepen'
+#  url = 'https://codepen.io'
+#  weight = 6
+#[[menu.social]]
+#  name = 'Twitch'
+#  url = 'https://twitch.com'
+#  weight = 7
 [[menu.social]]
   name = 'Email'
   url = 'mailto:user@example.org'
   weight = 8
-[[menu.social]]
-  name = 'RSS'
-  url = '/articles/index.xml'
-  weight = 9
+#[[menu.social]]
+#  name = 'RSS'
+#  url = '/articles/index.xml'
+#  weight = 9
 
 
 # syntax highlight settings
