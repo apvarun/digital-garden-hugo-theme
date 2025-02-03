@@ -44,14 +44,14 @@ googleAnalytics = "UA-PROPERTY_ID"
   name = 'words'
   url = '/words'
   weight = 3
-[[menu.main]]
-  name = 'audio'
-  url = '/audio'
-  weight = 4
-[[menu.main]]
-  name = 'images'
-  url = '/images'
-  weight = 5
+#[[menu.main]]
+#  name = 'audio'
+#  url = '/audio'
+#  weight = 4
+#[[menu.main]]
+#  name = 'images'
+#  url = '/images'
+#  weight = 5
 
 # [[menu.social]]
 #   name = 'Twitter'
@@ -83,7 +83,7 @@ googleAnalytics = "UA-PROPERTY_ID"
 #  weight = 7
 [[menu.social]]
   name = 'Email'
-  url = 'mailto:ciao@frizzande.io'
+  url = 'mailto:frizzande@gmail.com'
   weight = 8
 #[[menu.social]]
 #  name = 'RSS'
