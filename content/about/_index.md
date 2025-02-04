@@ -1,8 +1,7 @@
 ---
 title: "about"
+layout: single
 ---
-
-# about
 
 my name is ande 
 

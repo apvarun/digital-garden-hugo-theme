@@ -100,7 +100,6 @@ googleAnalytics = "UA-PROPERTY_ID"
     unsafe = true
 
 
-
 [author]
   name = "Varun A P"
   homepage = "https://apvarun.com"

@@ -11,7 +11,7 @@
     Categories - frizzande
   </title>
 
-  <meta name="description" content="My Digital Garden on the Internet" /><meta name="generator" content="Hugo 0.142.0">
+  <meta name="description" content="My Digital Garden on the Internet" /><meta name="generator" content="Hugo 0.140.0">
 
   <link rel="stylesheet" href="http://localhost:1313/css/main.css" />
 
@@ -37,11 +37,15 @@
   
   <meta itemprop="name" content="Categories">
   <meta itemprop="description" content="My Digital Garden on the Internet">
+  <meta itemprop="datePublished" content="2025-02-04T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-02-04T00:00:00+00:00">
   <meta itemprop="image" content="http://localhost:1313/digital-garden-logo.png">
 
   
   <meta itemprop="name" content="Categories">
   <meta itemprop="description" content="My Digital Garden on the Internet">
+  <meta itemprop="datePublished" content="2025-02-04T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-02-04T00:00:00+00:00">
   <meta itemprop="image" content="http://localhost:1313/digital-garden-logo.png">
 </head>
 <body class="flex relative h-full min-h-screen"><aside
@@ -173,6 +177,59 @@
   <line x1="4" y1="12" x2="20" y2="12" />
   <line x1="4" y1="18" x2="16" y2="18" />
 </svg></button>
+
+
+<div class="flex flex-1 h-screen relative w-full min-w-0">
+
+  <section
+    class="w-full h-full md:min-w-[400px] md:w-1/4 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col py-3 overflow-y-auto scroll-area flex-shrink-0">
+    <a href="http://localhost:1313/categories/">
+      <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">Categories</h2>
+    </a>
+<label class="mb-2 block px-2">
+  <span></span>
+  <input type="text" placeholder="Search articles" class="searchInput bg-white rounded px-2 py-1 w-full border" />
+</label>
+<script>
+  const searchElt = document.querySelector('.searchInput')
+  if (searchElt) {
+    searchElt.addEventListener('input', evt => {
+      const value = evt.target.value || '';
+
+      const articles = document.querySelectorAll('.article')
+      if (!value) {
+        articles.forEach(article => article.classList.remove('hidden'))
+      } else {
+        articles.forEach(article => article.classList.add('hidden'))
+        Array.from(articles).filter(article => {
+          const title = article.querySelector('h3')
+          if (!title) return false;
+
+          return title.textContent.toLowerCase().includes(value.toLowerCase())
+        }).forEach(article => article.classList.remove('hidden'))
+      }
+    })
+  }
+</script>
+<div class="space-y-2.5">
+      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/categories/physiology/">
+
+        
+        
+        <h3 class="text-lg font-semibold mb-0.5"></h3>
+        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+          
+        </div>
+      </a>
+      </div>
+  </section>
+
+  <main class="hidden md:grid h-screen place-items-center flex-1">
+    <p class="text-center p-8 text-2xl text-slate-300 dark:text-slate-700">Select a post to read</p>
+  </main>
+
+</div>
+
 
   
 <script type="text/javascript" src="/main.js" defer></script>
