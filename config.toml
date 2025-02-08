@@ -15,7 +15,7 @@ title = "frizzande"
 googleAnalytics = "UA-PROPERTY_ID"
 
 [Params]
-  description = "My Digital Garden on the Internet"
+  description = "flowers and sunshine"
   images = ['/digital-garden-logo.png']
   enableSearch = true
 

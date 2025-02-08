@@ -3,8 +3,11 @@ title: "about"
 layout: single
 ---
 
-my name is ande 
+'frizzante', en italiano, can be translated as 'sparkling'
 
-i am a personal trainer based in [sydney, australia]
+'frizza', en australiano, as the abbreviation of 'frisbee' or 'ultimate frisbee'
 
-my mission is to empower people to express their physicality with joy and grace
+'ande', that is, us
+
+"frizzande" as the combination thereof
+
