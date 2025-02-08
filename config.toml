@@ -16,7 +16,7 @@ googleAnalytics = "UA-PROPERTY_ID"
 
 [Params]
   description = "flowers and sunshine"
-  images = ['/digital-garden-logo.png']
+#  images = ['/digital-garden-logo.png']
   enableSearch = true
 
 [Params.newsletter]
