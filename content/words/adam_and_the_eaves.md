@@ -4,6 +4,7 @@ date: "2025-02-21"
 tags: ["stories"]
 categories: ["training"]
 author: "ande"
+draft: true
 ---
 
 the first time we ever benched, we were working nights as a delivery driver.
