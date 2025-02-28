@@ -4,6 +4,7 @@ date: "2019-11-22"
 tags: ["identity"]
 categories: ["reflection"]
 author: "ande"
+draft: true
 ---
 
 *when you have had to make big, adult life decisions, how have you known if you made the right choice*

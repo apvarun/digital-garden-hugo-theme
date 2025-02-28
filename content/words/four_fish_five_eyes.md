@@ -4,6 +4,7 @@ date: "2019-11-08"
 tags: ["ultimate"]
 categories: ["play mixed"]
 author: "ande"
+draft: true
 ---
 
 09,30 qf129 to shanghai
