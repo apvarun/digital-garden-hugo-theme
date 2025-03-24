@@ -1,0 +1,48 @@
+\documentclass[tikz,border=3pt]{standalone}
+
+\usetikzlibrary{calc}
+
+\begin{document}
+
+\begin{tikzpicture}
+\coordinate (a) at (4,4);
+\coordinate (b) at (6,10);
+
+\coordinate (c) at (4,-2);
+
+\draw (a) to[out=45,in=-90] (b) to[out=90,in=90] (a);
+%\draw (a) .. controls (2,2) and (2,3) .. (c);
+\draw (a) to[out=-90,in=95] (c);
+\draw (c) to[out=-70,in=-30] (a);
+%\draw (c) .. controls (1,2) and (3,2) .. (a);
+
+%\draw (a) coordinate (a) arc [start angle=-60, end angle=240, x radius=0.75cm, y radius=0.66cm] coordinate (b);
+
+
+\end{tikzpicture}
+
+\begin{tikzpicture}[line width=3pt,xscale=0.7,yscale=0.7,line cap=round, line join=round]
+
+\coordinate (o) at (0,0);
+\coordinate (a) at (2,6);
+\coordinate (b) at (-2,-6);
+\coordinate (c) at (-2,1);
+\coordinate (d) at (3,-1);
+\coordinate (e) at (2,-2);
+\coordinate (f) at (4,-2);
+\coordinate (z) at (2,-1);
+
+\draw[bend right] (o) to (a);
+\draw (a) to (b);
+\draw[bend right] (b) to (o);
+\draw (o) ++(-1.3,0.66) circle [x radius=1.5cm, y radius=0.66cm, rotate=-30];
+%\draw[bend right] (o) to (c) to (o);
+\draw[bend left] (o) to (d) ++(-0.05,0);
+%\draw[bend left] (d) to (e) to (d);
+\draw (d) ++(-0.4,-0.15) circle [x radius=0.35cm, y radius=0.45cm, rotate=20];
+\draw[bend right] (d) to (f);
+
+
+\end{tikzpicture}
+
+\end{document}
