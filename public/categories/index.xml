@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on frizzande</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://frizzande.io/categories/</link>
     <description>Recent content in Categories on frizzande</description>
     <generator>Hugo</generator>
     <language>en-au</language>
     <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frizzande.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Language</title>
-      <link>http://localhost:1313/categories/language/</link>
+      <link>https://frizzande.io/categories/language/</link>
       <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/language/</guid>
+      <guid>https://frizzande.io/categories/language/</guid>
       <description></description>
     </item>
     <item>
       <title>Letters</title>
-      <link>http://localhost:1313/categories/letters/</link>
+      <link>https://frizzande.io/categories/letters/</link>
       <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/letters/</guid>
+      <guid>https://frizzande.io/categories/letters/</guid>
       <description></description>
     </item>
     <item>
       <title>Mentality</title>
-      <link>http://localhost:1313/categories/mentality/</link>
+      <link>https://frizzande.io/categories/mentality/</link>
       <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/mentality/</guid>
+      <guid>https://frizzande.io/categories/mentality/</guid>
       <description></description>
     </item>
   </channel>

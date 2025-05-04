@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Identity on frizzande</title>
-    <link>http://localhost:1313/tags/identity/</link>
+    <link>https://frizzande.io/tags/identity/</link>
     <description>Recent content in Identity on frizzande</description>
     <generator>Hugo</generator>
     <language>en-au</language>
     <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/identity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frizzande.io/tags/identity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pro nouns</title>
-      <link>http://localhost:1313/articles/pro_nouns/</link>
+      <link>https://frizzande.io/articles/pro_nouns/</link>
       <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/pro_nouns/</guid>
+      <guid>https://frizzande.io/articles/pro_nouns/</guid>
       <description>&lt;p&gt;we prefer &amp;rsquo;they/them&#39;&lt;/p&gt;&#xA;&lt;p&gt;we prefer the third person plural as we believe that we are more than one person&lt;/p&gt;&#xA;&lt;p&gt;we are typing these letters into a computer keyboard&lt;/p&gt;&#xA;&lt;p&gt;and we are reading these words on our website&lt;/p&gt;&#xA;&lt;p&gt;the plurality of our singularity&lt;/p&gt;</description>
     </item>
   </channel>

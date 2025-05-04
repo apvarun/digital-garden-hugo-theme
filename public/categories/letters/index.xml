@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Letters on frizzande</title>
-    <link>http://localhost:1313/categories/letters/</link>
+    <link>https://frizzande.io/categories/letters/</link>
     <description>Recent content in Letters on frizzande</description>
     <generator>Hugo</generator>
     <language>en-au</language>
     <lastBuildDate>Sun, 09 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/letters/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://frizzande.io/categories/letters/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>thirty two</title>
-      <link>http://localhost:1313/articles/thirty_two/</link>
+      <link>https://frizzande.io/articles/thirty_two/</link>
       <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/thirty_two/</guid>
+      <guid>https://frizzande.io/articles/thirty_two/</guid>
       <description>&lt;p&gt;this piece originated from a prompt: a birthday letter from us at 32 to our future present self - and yet, we found an obstruction, a blockage, as traditionally (previously) the birthday letter would be exchanged with one from MADDY, whom we have sadly not encountered for a hot minute. sunshine and turtles going out to you, homeslice.&lt;/p&gt;&#xA;&lt;p&gt;and so, what follows is a treatise on &lt;strong&gt;THE HAIR CRISIS&lt;/strong&gt;, and how it came to be &lt;strong&gt;THE HERE CRISES&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
