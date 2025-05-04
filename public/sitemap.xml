@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://frizzande.io/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/words/</loc>
-    <lastmod>2025-02-25T00:00:00+00:00</lastmod>
+    <loc>https://frizzande.io/articles/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://frizzande.io/blog/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://frizzande.io/categories/</loc>
     <lastmod>2025-02-08T00:00:00+00:00</lastmod>
@@ -17,7 +20,10 @@
     <loc>https://frizzande.io/categories/language/</loc>
     <lastmod>2025-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/words/pro_nouns/</loc>
+    <loc>https://frizzande.io/articles/pro_nouns/</loc>
+    <lastmod>2025-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://frizzande.io/blog/pro_nouns/</loc>
     <lastmod>2025-02-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://frizzande.io/tags/</loc>
@@ -29,7 +35,10 @@
     <loc>https://frizzande.io/categories/letters/</loc>
     <lastmod>2023-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/words/thirty_two/</loc>
+    <loc>https://frizzande.io/articles/thirty_two/</loc>
+    <lastmod>2023-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://frizzande.io/blog/thirty_two/</loc>
     <lastmod>2023-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://frizzande.io/categories/mentality/</loc>
@@ -38,9 +47,10 @@
     <loc>https://frizzande.io/tags/ultimate/</loc>
     <lastmod>2017-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/words/what_to_do_when_you_cant_play_ultimate/</loc>
+    <loc>https://frizzande.io/articles/what_to_do_when_you_cant_play_ultimate/</loc>
     <lastmod>2017-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/about/</loc>
+    <loc>https://frizzande.io/blog/what_to_do_when_you_cant_play_ultimate/</loc>
+    <lastmod>2017-03-10T00:00:00+00:00</lastmod>
   </url>
 </urlset>
