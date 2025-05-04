@@ -31,12 +31,12 @@ googleAnalytics = "UA-PROPERTY_ID"
   url = '/'
   weight = 1
 [[menu.main]]
-  name = 'about'
-  url = '/about'
+  name = 'blog'
+  url = '/blog'
   weight = 2
 [[menu.main]]
-  name = 'words'
-  url = '/words'
+  name = 'articles'
+  url = '/articles'
   weight = 3
 #[[menu.main]]
 #  name = 'audio'

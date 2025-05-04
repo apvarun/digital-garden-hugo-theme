@@ -2,55 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://frizzande.io/</loc>
+    <loc>http://localhost:1313/blog/2025-05-04/</loc>
+    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/articles/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/articles/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://frizzande.io/blog/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://frizzande.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/tags/identity/</loc>
+    <loc>http://localhost:1313/tags/identity/</loc>
     <lastmod>2025-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/categories/language/</loc>
+    <loc>http://localhost:1313/categories/language/</loc>
     <lastmod>2025-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/articles/pro_nouns/</loc>
+    <loc>http://localhost:1313/articles/pro_nouns/</loc>
     <lastmod>2025-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/blog/pro_nouns/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/tags/</loc>
-    <lastmod>2025-02-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://frizzande.io/tags/birthday/</loc>
+    <loc>http://localhost:1313/tags/birthday/</loc>
     <lastmod>2023-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/categories/letters/</loc>
+    <loc>http://localhost:1313/categories/letters/</loc>
     <lastmod>2023-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/articles/thirty_two/</loc>
+    <loc>http://localhost:1313/articles/thirty_two/</loc>
     <lastmod>2023-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/blog/thirty_two/</loc>
-    <lastmod>2023-07-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://frizzande.io/categories/mentality/</loc>
+    <loc>http://localhost:1313/categories/mentality/</loc>
     <lastmod>2017-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/tags/ultimate/</loc>
+    <loc>http://localhost:1313/tags/ultimate/</loc>
     <lastmod>2017-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://frizzande.io/articles/what_to_do_when_you_cant_play_ultimate/</loc>
-    <lastmod>2017-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://frizzande.io/blog/what_to_do_when_you_cant_play_ultimate/</loc>
+    <loc>http://localhost:1313/articles/what_to_do_when_you_cant_play_ultimate/</loc>
     <lastmod>2017-03-10T00:00:00+00:00</lastmod>
   </url>
 </urlset>
