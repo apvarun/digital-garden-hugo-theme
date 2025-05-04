@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on frizzande</title>
-    <link>https://frizzande.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on frizzande</description>
     <generator>Hugo</generator>
     <language>en-au</language>
     <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://frizzande.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Identity</title>
-      <link>https://frizzande.io/tags/identity/</link>
+      <link>http://localhost:1313/tags/identity/</link>
       <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://frizzande.io/tags/identity/</guid>
+      <guid>http://localhost:1313/tags/identity/</guid>
       <description></description>
     </item>
     <item>
       <title>Birthday</title>
-      <link>https://frizzande.io/tags/birthday/</link>
+      <link>http://localhost:1313/tags/birthday/</link>
       <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://frizzande.io/tags/birthday/</guid>
+      <guid>http://localhost:1313/tags/birthday/</guid>
       <description></description>
     </item>
     <item>
       <title>Ultimate</title>
-      <link>https://frizzande.io/tags/ultimate/</link>
+      <link>http://localhost:1313/tags/ultimate/</link>
       <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://frizzande.io/tags/ultimate/</guid>
+      <guid>http://localhost:1313/tags/ultimate/</guid>
       <description></description>
     </item>
   </channel>

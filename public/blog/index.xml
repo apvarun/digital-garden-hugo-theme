@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on frizzande</title>
-    <link>https://frizzande.io/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blogs on frizzande</description>
     <generator>Hugo</generator>
     <language>en-au</language>
     <lastBuildDate>Sun, 04 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://frizzande.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2025-05-04</title>
-      <link>https://frizzande.io/blog/2025-05-04/</link>
+      <title>12366</title>
+      <link>http://localhost:1313/blog/12366/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://frizzande.io/blog/2025-05-04/</guid>
-      <description>&lt;p&gt;Today I created the blog on the website.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/12366/</guid>
+      <description>&lt;p&gt;today we created the blog on the website&lt;/p&gt;&#xA;&lt;p&gt;continuing agenda:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;landing page bio (en inglese)&lt;/li&gt;&#xA;&lt;li&gt;daily blog posts&lt;/li&gt;&#xA;&lt;li&gt;publish an article&lt;/li&gt;&#xA;&lt;li&gt;send article to mailing list&lt;/li&gt;&#xA;&lt;li&gt;patron permission for publication&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
