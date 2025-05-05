@@ -4,9 +4,9 @@
 
 <body class="flex relative h-full min-h-screen">
   {{- partial "sidebar.html" . -}}
-  <!-- <div class="flex-1 max-w-full"> -->
+  <div class="flex-1 max-w-full">
     {{- block "main" . }}{{- end }}
-  <!-- </div> -->
+  </div>
   {{- partial "footer.html" . -}}
 </body>
 
