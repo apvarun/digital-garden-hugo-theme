@@ -5,7 +5,7 @@
   "scripts": {
     "dev:css": "NODE_ENV=development ./node_modules/tailwindcss/lib/cli.js -i ./themes/digitalgarden/assets/css/tailwind.css -o ./static/css/main.css -w",
     "build:css": "NODE_ENV=production ./node_modules/tailwindcss/lib/cli.js -i ./themes/digitalgarden/assets/css/tailwind.css -o ./static/css/main.css --minify",
-    "develop": "concurrently  \"npm run dev:css\" \"npm run dev:hugo\"",
+    "develop": "concurrently  \"npm run dev:css\" \"npm run dev\"",
     "dev": "hugo serve",
     "build": "npm run build:css && hugo --gc --minify"
   },
@@ -15,9 +15,9 @@
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.10",
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
-    "concurrently": "^6.4.0"
+    "concurrently": "^8.2.2"
   }
 }
